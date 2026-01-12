@@ -1,9 +1,10 @@
 en:
-  admin_js:
-    admin:
-      site_settings:
-        categories:
-          TODO_plugin_name: "Plugin Name"
   js:
-    discourse_plugin_name:
-      placeholder: placeholder
+    secure_tags:
+      toolbar:
+        insert_login:
+          title: "Login to view"
+          placeholder: "Content visible after login"
+        insert_reply:
+          title: "Reply to view"
+          placeholder: "Content visible after replying"
