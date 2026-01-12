@@ -1,0 +1,10 @@
+zh_CN:
+  js:
+    secure_tags:
+      toolbar:
+        insert_login:
+          title: "登录可见"
+          placeholder: "这里填写登录后可见的内容"
+        insert_reply:
+          title: "回复可见"
+          placeholder: "这里填写回复后可见的内容"
