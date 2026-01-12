@@ -1,1 +1,63 @@
 
+.d-secure-mask {
+  position: relative;
+  margin: 10px 0;
+  padding: 14px;
+  background: #fdf2e9;
+  border: 1px dashed #f39c12;
+  border-radius: 6px;
+}
+
+.d-secure-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #d35400;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.d-secure-overlay .d-secure-action {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 700;
+}
+
+.d-secure-overlay .d-secure-action:hover {
+  color: #a84300;
+}
+
+/* tooltip 兼容（保留） */
+.d-editor-button-bar button[data-tooltip] {
+  position: relative;
+}
+
+.d-editor-button-bar button[data-tooltip]:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #2c3e50;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.d-editor-button-bar button[data-tooltip]:hover::before {
+  content: "";
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: #2c3e50;
+  z-index: 9999;
+  pointer-events: none;
+}
