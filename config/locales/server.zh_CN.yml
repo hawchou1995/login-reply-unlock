@@ -1,0 +1,5 @@
+en:
+  secure_tags:
+    login_prompt_html: "Please <a class=\"d-secure-action\" data-action=\"login\" href=\"/login\">log in</a> to view"
+    reply_prompt_html_logged_in: "Please <a class=\"d-secure-action\" data-action=\"reply\" href=\"#\">reply</a> to view"
+    reply_prompt_html_anonymous: "Please <a class=\"d-secure-action\" data-action=\"login\" href=\"/login\">log in</a> and reply to view"
